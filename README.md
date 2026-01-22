@@ -10,11 +10,11 @@
 - **Docker** для контейнеризации
 ## Структура проекта
 test_exercise/
-├── allure-results/ # отчеты по тестированию
-├── pages/ # Page Object классы
-├── tests/ # Тестовые сценарии
-├── requirements.txt # Зависимости Python
-├── Dockerfile # Конфигурация Docker
-└── README.md # Документация
-└── pytest.ini # Конфигурация Pytest
+- allure-results/ # отчеты по тестированию
+- pages/ # Page Object классы
+- tests/ # Тестовые сценарии
+- requirements.txt # Зависимости Python
+- Dockerfile # Конфигурация Docker
+- README.md # Документация
+- pytest.ini # Конфигурация Pytest
 ### Запуск через Docker
