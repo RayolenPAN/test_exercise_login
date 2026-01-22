@@ -9,10 +9,10 @@
 - **Allure** для отчетов
 - **Docker** для контейнеризации
 ## Структура проекта
-test_exercise/
-- allure-results/ # отчеты по тестированию
-- pages/ # Page Object классы
-- tests/ # Тестовые сценарии
+test_exercise
+- allure-results # отчеты по тестированию
+- pages # Page Object классы
+- tests # Тестовые сценарии
 - requirements.txt # Зависимости Python
 - Dockerfile # Конфигурация Docker
 - README.md # Документация
