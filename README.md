@@ -19,9 +19,9 @@ test_exercise_login
 - pytest.ini # Конфигурация Pytest
 ### Запуск проекта
 1. Клонирование репозитория
-2. Если установлен python, то необходимо установить зависимости (через терминал среды разработки):
-   pip install -r requirements.txt
-   установить браузер для Playwright
-   playwright install chromium
+2. Если установлен python, то необходимо установить зависимости (через терминал среды разработки):  
+   pip install -r requirements.txt  
+   установить браузер для Playwright  
+   playwright install chromium  
 3. Запуск тестов с отчетами allure
    pytest tests/ --alluredir=allure-results -v
