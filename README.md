@@ -17,7 +17,7 @@ test_exercise_login
 - Dockerfile # Конфигурация Docker
 - README.md # Документация
 - pytest.ini # Конфигурация Pytest
-### Запуск проекта
+## Запуск проекта
 1. Клонирование репозитория
 2. Если установлен python, то необходимо установить зависимости (через терминал среды разработки):  
    pip install -r requirements.txt  
