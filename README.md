@@ -9,7 +9,7 @@
 - **Allure** для отчетов
 - **Docker** для контейнеризации
 ## Структура проекта
-test_exercise
+test_exercise_login
 - allure-results # отчеты по тестированию
 - pages # Page Object классы
 - tests # Тестовые сценарии
@@ -17,4 +17,11 @@ test_exercise
 - Dockerfile # Конфигурация Docker
 - README.md # Документация
 - pytest.ini # Конфигурация Pytest
-### Запуск через Docker
+### Запуск проекта
+1. Клонирование репозитория
+2. Если установлен python, то необходимо установить зависимости (через терминал среды разработки):
+   pip install -r requirements.txt
+   установить браузер для Playwright
+   playwright install chromium
+3. Запуск тестов с отчетами allure
+   pytest tests/ --alluredir=allure-results -v
